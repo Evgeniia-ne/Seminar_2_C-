@@ -9,3 +9,6 @@ int third = number % 10;
 Console.WriteLine("Третья цифра: " + third);
 
 Console.WriteLine("Число без второй цифры: " + first + third);
+
+//int result = (number / 100) * 10 + number % 10;
+//Console.WriteLine( number + -> + result);

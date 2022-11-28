@@ -5,13 +5,12 @@
 Console.Clear();
 Console.Write("Введите первое число ");
 int number1 = int.Parse(Console.ReadLine());
-
 Console.Write("Введите второе число ");
 int number2 = int.Parse(Console.ReadLine());
 
 if (number1%number2 == 0)
 {
-    Console.Write("кратно");
+    Console.Write($"{number1}, {number2} -> Кратно");
 }
 else
-Console.Write("Остаток " + (number1%number2) );
+Console.Write($"{number1}, {number2} - > не кратно, остаток {number1%number2}" );  //Console.WriteLine( number + -> + result);
